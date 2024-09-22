@@ -1,10 +1,12 @@
-# Extended Calculator
+# Task 2
 
-This repository contains a JavaScript implementation of an extended calculator with various mathematical and string operations.
+This repository contains the HTML structure for TechnoBlog, a technology news and review website.
+
+
 
 ## Features
 
-- Basic arithmetic operations (addition, subtraction, multiplication, division)
-- Advanced mathematical functions (percentage, square root, exponentiation, factorial)
-- Number manipulation (rounding)
-- String operations (concatenation, character count, case conversion, trimming)
+- A navigation menu
+- A carousel showcasing popular articles on various tech topics
+- A section for displaying the latest blog posts
+- A modal for displaying full article content

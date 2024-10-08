@@ -34,24 +34,3 @@ export function getMostPopularCourseType(): CourseType {
 
     return mostPopularType;
 }
-
-export function getProfessorWorkload(professorId: number): number {
-    return schedule.filter(lesson => lesson.professorId === professorId).length;
-}
-
-export function getMostBusyDay(): DayOfWeek[] {
-    const dayCounts: { [key in DayOfWeek]: number } = {
-        "Monday": 0, "Tuesday": 0, "Wednesday": 0, "Thursday": 0,
-        "Friday": 0, "Saturday": 0
-    };
-
-    schedule.forEach(lesson => {
-        dayCounts[lesson.dayOfWeek]++;
-    });
-
-    const maxCount = Math.max(...Object.values(dayCounts));
-    
-    return (Object.entries(dayCounts) as [DayOfWeek, number][])
-        .filter(([_, count]) => count === maxCount)
-        .map(([day, _]) => day);
-}

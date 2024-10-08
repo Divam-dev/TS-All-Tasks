@@ -28,6 +28,7 @@ function updateProfessorList() {
         });
     }
 }
+// Update Statistics
 function updateStatistics() {
     const classroomProgressContainer = document.getElementById('classroomProgressBars');
     if (classroomProgressContainer) {
@@ -62,6 +63,7 @@ function updateStatistics() {
         document.getElementById('professorScheduleList').innerHTML = scheduleList.join('<br>');
     }
 }
+// Update Schedule
 function updateScheduleDisplay() {
     const tableBody = document.querySelector("#scheduleTable tbody");
     if (!tableBody)
@@ -244,7 +246,7 @@ document.addEventListener('DOMContentLoaded', () => {
             alert("Конфлікт в розкладі!");
         }
     });
-    // Закриття модальних вікон
+    // Close Modals
     document.getElementById("closeTeacherModal")?.addEventListener("click", () => closeModal("teacherModal"));
     document.getElementById("closeCourseModal")?.addEventListener("click", () => closeModal("courseModal"));
     document.getElementById("closeLessonModal")?.addEventListener("click", () => closeModal("lessonModal"));

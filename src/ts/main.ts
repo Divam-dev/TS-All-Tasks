@@ -34,6 +34,7 @@ function updateProfessorList(): void {
     }
 }
 
+// Update Statistics
 function updateStatistics(): void {
     const classroomProgressContainer = document.getElementById('classroomProgressBars');
     if (classroomProgressContainer) {
@@ -79,6 +80,7 @@ function updateStatistics(): void {
     }
 }
 
+// Update Schedule
 function updateScheduleDisplay(): void {
     const tableBody = document.querySelector("#scheduleTable tbody");
     if (!tableBody) return;
@@ -288,7 +290,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Закриття модальних вікон
+    // Close Modals
     document.getElementById("closeTeacherModal")?.addEventListener("click", () => closeModal("teacherModal"));
     document.getElementById("closeCourseModal")?.addEventListener("click", () => closeModal("courseModal"));
     document.getElementById("closeLessonModal")?.addEventListener("click", () => closeModal("lessonModal"));

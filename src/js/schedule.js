@@ -6,8 +6,6 @@ export function addLesson(lesson) {
         return true;
     }
     else {
-        console.log(`Конфлікт у розкладі: ${conflict.type}`);
-        console.log("Деталі конфліктного заняття:", conflict.lessonDetails);
         return false;
     }
 }
@@ -48,18 +46,15 @@ export function reassignClassroom(dayOfWeek, timeSlot, oldClassroomNumber, newCl
         lesson.timeSlot === timeSlot &&
         lesson.classroomNumber === oldClassroomNumber);
     if (lessonIndex === -1) {
-        console.log(`Заняття не знайдено: ${dayOfWeek}, ${timeSlot}, аудиторія ${oldClassroomNumber}.`);
         return false;
     }
     const isNewClassroomFree = !schedule.some(lesson => lesson.dayOfWeek === dayOfWeek &&
         lesson.timeSlot === timeSlot &&
         lesson.classroomNumber === newClassroomNumber);
     if (!isNewClassroomFree) {
-        console.log(`Аудиторія ${newClassroomNumber} вже зайнята в цей час.`);
         return false;
     }
     schedule[lessonIndex].classroomNumber = newClassroomNumber;
-    console.log(`Аудиторію для заняття змінено з ${oldClassroomNumber} на ${newClassroomNumber}.`);
     return true;
 }
 export function cancelLesson(dayOfWeek, timeSlot, classroomNumber) {
@@ -67,9 +62,7 @@ export function cancelLesson(dayOfWeek, timeSlot, classroomNumber) {
         lesson.timeSlot === timeSlot &&
         lesson.classroomNumber === classroomNumber);
     if (lessonIndex === -1) {
-        console.log(`Заняття не знайдено: ${dayOfWeek}, ${timeSlot}, аудиторія ${classroomNumber}.`);
         return;
     }
     schedule.splice(lessonIndex, 1);
-    console.log(`Заняття видалено з розкладу: ${dayOfWeek}, ${timeSlot}, аудиторія ${classroomNumber}.`);
 }

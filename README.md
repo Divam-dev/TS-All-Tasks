@@ -10,3 +10,9 @@ This project is a web-based University Schedule Management System. The system al
 * View available classrooms for specific time slots
 * Check individual professor schedules
 * View classroom utilization statistics
+
+## In this branch
+
+* Install and configure Pretier
+* Install and configure ESLint
+* Install Husky and configure lint-staged

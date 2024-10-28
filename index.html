@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ТехноБлог</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <ul>
+                <li><a href="#"><i class="fas fa-home"></i> Головна</a></li>
+                <li><a href="#"><i class="fas fa-newspaper"></i> Блог</a></li>
+                <li><a href="#"><i class="fas fa-info-circle"></i> Про нас</a></li>
+                <li><a href="#"><i class="fas fa-envelope"></i> Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Ласкаво просимо до ТехноБлогу</h1>
+                <p>Ваше джерело останніх новин та оглядів у світі технологій</p>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2 class="section-title">Популярні статті</h2>
+            <div class="carousel">
+                <div class="carousel-container">
+                    <div class="carousel-item active" style="background-image: url('assets/img/AI_trends.jpg');">
+                        <div class="carousel-content">
+                            <h3>Нові тренди в ШІ</h3>
+                            <p>Дізнайтеся про останні досягнення у сфері штучного інтелекту</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="background-image: url('assets/img/smartphones.webp');">
+                        <div class="carousel-content">
+                            <h3>Огляд останніх смартфонів</h3>
+                            <p>Порівняння топових моделей 2024 року</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="background-image: url('assets/img/quantum_computing.webp');">
+                        <div class="carousel-content">
+                            <h3>Майбутнє квантових обчислень</h3>
+                            <p>Як квантові комп'ютери змінять світ технологій</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="background-image: url('assets/img/cybersecurity.jpg');">
+                        <div class="carousel-content">
+                            <h3>Кібербезпека в 2024 році</h3>
+                            <p>Нові виклики та методи захисту в цифровому світі</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="background-image: url('assets/img/energy.jpg');">
+                        <div class="carousel-content">
+                            <h3>Революція в енергетиці</h3>
+                            <p>Інновації в сфері відновлюваної енергії</p>
+                        </div>
+                    </div>
+                    <button class="carousel-arrow left"><i class="fas fa-chevron-left"></i></button>
+                    <button class="carousel-arrow right"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2 class="section-title">Останні публікації</h2>
+            <div id="posts" class="posts"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 ТехноБлог. Всі права захищено.</p>
+        </div>
+    </footer>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Повний текст статті</h2>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+    <script type="module" src="assets/js/main.js"></script>
+</body>
+
+</html>

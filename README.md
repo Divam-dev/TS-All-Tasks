@@ -1,13 +1,5 @@
-# This repository contains all tasks for the TypeScript course
+# Task 5
 
-## [Develop branch](https://github.com/Divam-dev/TS-All-Tasks/tree/develop)
+## E-commerce system
 
-## [Pract 1 (JS to TS)](https://github.com/Divam-dev/TS-All-Tasks/tree/feature/pr-1)
-
-## [Pract 2 (tsconfig)](https://github.com/Divam-dev/TS-All-Tasks/tree/feature/pr-2)
-
-## [Pract 3 (custom types)](https://github.com/Divam-dev/TS-All-Tasks/tree/feature/pr-3)
-
-## [Lab 3 (installing linter)](https://github.com/Divam-dev/TS-All-Tasks/tree/feature/lb-3)
-
-## [Pract 4 (modules)](https://github.com/Divam-dev/TS-All-Tasks/tree/feature/pr-4)
+The project implements basic product management functions for an online store with support for various types of products (electronics, clothing, books). It allows you to add, edit, delete and view products.

@@ -11,3 +11,5 @@
 ## [Lab 3 (installing linter)](https://github.com/Divam-dev/TS-All-Tasks/tree/feature/lb-3)
 
 ## [Pract 4 (modules)](https://github.com/Divam-dev/TS-All-Tasks/tree/feature/pr-4)
+
+## [Pract 5 (modules)](https://github.com/Divam-dev/TS-All-Tasks/tree/feature/pr-5)

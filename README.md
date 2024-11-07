@@ -12,4 +12,4 @@
 
 ## [Pract 4 (modules)](https://github.com/Divam-dev/TS-All-Tasks/tree/feature/pr-4)
 
-## [Pract 5 (modules)](https://github.com/Divam-dev/TS-All-Tasks/tree/feature/pr-5)
+## [Pract 5 (generic types)](https://github.com/Divam-dev/TS-All-Tasks/tree/feature/pr-5)

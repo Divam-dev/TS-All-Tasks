@@ -1,15 +1,9 @@
-# This repository contains all tasks for the TypeScript course
+# Lab 5
 
-## [Develop branch](https://github.com/Divam-dev/TS-All-Tasks/tree/develop)
+Content management systems with type-safe architecture
 
-## [Pract 1 (JS to TS)](https://github.com/Divam-dev/TS-All-Tasks/tree/feature/pr-1)
-
-## [Pract 2 (tsconfig)](https://github.com/Divam-dev/TS-All-Tasks/tree/feature/pr-2)
-
-## [Pract 3 (custom types)](https://github.com/Divam-dev/TS-All-Tasks/tree/feature/pr-3)
-
-## [Lab 3 (installing linter)](https://github.com/Divam-dev/TS-All-Tasks/tree/feature/lb-3)
-
-## [Pract 4 (modules)](https://github.com/Divam-dev/TS-All-Tasks/tree/feature/pr-4)
-
-## [Pract 5 (generic types)](https://github.com/Divam-dev/TS-All-Tasks/tree/feature/pr-5)
+## Key Features
+- Type-safe content management
+- Role-based permissions
+- Composite validation
+- Versioned content tracking

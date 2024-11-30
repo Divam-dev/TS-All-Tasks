@@ -15,3 +15,5 @@
 ## [Pract 5 (generic types)](https://github.com/Divam-dev/TS-All-Tasks/tree/feature/pr-5)
 
 ## [Lab 5 (Type-Safe Content Management System)](https://github.com/Divam-dev/TS-All-Tasks/tree/feature/lb-5)
+
+## [Pract 7 (TypeScript & Enum)](https://github.com/Divam-dev/TS-All-Tasks/tree/feature/pr-7)

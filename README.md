@@ -1,17 +1,5 @@
-# This repository contains all tasks for the TypeScript course
+# Task 7
 
-## [Develop branch](https://github.com/Divam-dev/TS-All-Tasks/tree/develop)
+## University Management System
 
-## [Pract 1 (JS to TS)](https://github.com/Divam-dev/TS-All-Tasks/tree/feature/pr-1)
-
-## [Pract 2 (tsconfig)](https://github.com/Divam-dev/TS-All-Tasks/tree/feature/pr-2)
-
-## [Pract 3 (custom types)](https://github.com/Divam-dev/TS-All-Tasks/tree/feature/pr-3)
-
-## [Lab 3 (installing linter)](https://github.com/Divam-dev/TS-All-Tasks/tree/feature/lb-3)
-
-## [Pract 4 (modules)](https://github.com/Divam-dev/TS-All-Tasks/tree/feature/pr-4)
-
-## [Pract 5 (generic types)](https://github.com/Divam-dev/TS-All-Tasks/tree/feature/pr-5)
-
-## [Lab 5 (Type-Safe Content Management System)](https://github.com/Divam-dev/TS-All-Tasks/tree/feature/lb-5)
+The University Management System manages various aspects of a university's educational process. It uses enums, interfaces, and a class to create a robust and type-safe system for handling students, courses, and academic records.
